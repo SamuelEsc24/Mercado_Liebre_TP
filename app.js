@@ -9,7 +9,6 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "/views/home.html"))
 })
 
-/* ruta */ 
 app.listen(PORT, () => console.log(`
 Server listen in port ${PORT}
 http://localhost:${PORT}
